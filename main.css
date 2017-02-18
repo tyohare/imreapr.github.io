@@ -1,0 +1,10 @@
+h1 {
+    color: deepskyblue;
+}
+div {
+    text-align: center;
+    border-color: transparent;
+    height: 100px;
+    color: darkslategrey;
+    font-size: 90px;
+}
