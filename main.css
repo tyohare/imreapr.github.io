@@ -1,10 +1,11 @@
 body {
     
     background-color: #263138;
+    color: wheat;
 }
 ul {
     list-style-type: none;
-    margin-left: 20em;
+    
 }
 
 ul li a {
@@ -23,11 +24,16 @@ ul li {
     font-size: 20px;
     line-height: 40px;   
     text-align: center;
-    border: 2px solid #263138;
 }
 
 ul li a:hover{
     transition: linear all .4;
     background-color: royalblue;
     opacity: 1;
+}
+div {
+    
+    background-color: black;
+    width: 100%;
+    height: 40px;
 }
