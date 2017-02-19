@@ -1,10 +1,33 @@
-h1 {
-    color: deepskyblue;
+body {
+    
+    background-color: #263138;
 }
-div {
+ul {
+    list-style-type: none;
+    margin-left: 20em;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    opacity: .7;
+    
+}
+
+ul li {
+    float: left;
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    font-size: 20px;
+    line-height: 40px;   
     text-align: center;
-    border-color: transparent;
-    height: 100px;
-    color: darkslategrey;
-    font-size: 90px;
+    border: 2px solid #263138;
+}
+
+ul li a:hover{
+    transition: linear all .4;
+    background-color: royalblue;
+    opacity: 1;
 }
