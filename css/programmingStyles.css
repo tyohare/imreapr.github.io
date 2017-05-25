@@ -1,43 +1,100 @@
-*{
-    margin: 0px; padding: 0px;
+body{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #35424a;
+}
+/* global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
 }
 
-body {
-    
-    background-color: #263138;
-    color: wheat;
+/*header*/
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: royalblue 3px solid;
 }
-ul {
-    list-style-type: none;
-    
-}
-
-ul li a {
+header a{
     text-decoration: none;
-    color: white;
-    display: block;
-    opacity: .7;
-    
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
-ul li {
+
+header li{
     float: left;
-    width: 140px;
-    height: 40px;
-    background-color: black;
-    font-size: 20px;
-    line-height: 40px;   
-    text-align: center;
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+}
+header #branding{
+    float: left;
+    
+}
+header #branding h1{
+    margin: 0;
+    padding: 0;
+}
+header nav{
+    float: right;
+    
 }
 
-ul li a:hover{
-    transition: linear all .4;
-    background-color: royalblue;
-    opacity: 1;
-}
-div {
+header .highlight, header .current a{
+    color: royalblue;
+    font-weight: bold;
     
-    background-color: black;
-    width: 100%;
-    height: 40px;
+}
+header a:hover{
+    color: #cccccc;
+}
+
+
+
+#showcase h1{
+    text-shadow: 1px 1px #000000;
+    
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 55px;
+}
+
+#showcase p{
+    text-shadow: 1px 1px #000000;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*Articles*/
+#blog{
+    padding: 30px;
+}
+
+.article{
+    
+}
+.article h1{
+}
+
+/*Footer*/
+footer{
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 70px;
 }
