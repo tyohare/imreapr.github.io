@@ -1,0 +1,43 @@
+*{
+    margin: 0px; padding: 0px;
+}
+
+body {
+    
+    background-color: #263138;
+    color: wheat;
+}
+ul {
+    list-style-type: none;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    opacity: .7;
+    
+}
+
+ul li {
+    float: left;
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    font-size: 20px;
+    line-height: 40px;   
+    text-align: center;
+}
+
+ul li a:hover{
+    transition: linear all .4;
+    background-color: royalblue;
+    opacity: 1;
+}
+div {
+    
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
