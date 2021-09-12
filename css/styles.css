@@ -12,8 +12,8 @@ body{
     width: 80%;
     margin: auto;
     overflow: hidden;
-    
-    
+
+
 }
 ul{
     margin: 0;
@@ -40,11 +40,11 @@ header li{
     float: left;
     display: inline;
     padding: 0 20px 0 20px;
-    
+
 }
 header #branding{
     float: left;
-    
+
 }
 header #branding h1{
     margin: 0;
@@ -52,13 +52,13 @@ header #branding h1{
 }
 header nav{
     float: right;
-    
+
 }
 
 header .highlight, header .current a{
     color: royalblue;
     font-weight: bold;
-    
+
 }
 header a:hover{
     color: #cccccc;
@@ -75,7 +75,7 @@ header a:hover{
 
 #showcase h1{
     text-shadow: 1px 1px #000000;
-    
+
     margin-top: 100px;
     margin-bottom: 10px;
     font-size: 55px;
@@ -93,7 +93,7 @@ header a:hover{
 }
 
 .article{
-    
+
 }
 .article h1{
 }
